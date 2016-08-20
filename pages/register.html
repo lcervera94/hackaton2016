@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<meta charset="utf-8"> 
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="..\css\bootstrap.min.css">
+	<title>Katze - Cadastro</title>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="index.html">
+	      	<img src="logo.png" width="45px">
+	      </a>
+	    </div>
+
+	    <!-- Collect the nav links, 	forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="index.html">Home</a></li>
+	        <li><a href="profile.html">Perfil</a></li>
+	        <li><a href="lecture.html">Aulas</a></li>
+	        <li><a href="about.html">Sobre</a></li>
+	        <li><a href="settings.html">Preferências</a></li>
+	        <li><a href="login.html">Sair</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="container">
+		<h3>Preencha o formulário a seguir para ingressar na plataforma Katze:</h3>
+		<form>
+  			<div class="form-group">
+ 		   		<label for="exampleInputEmail1">Endereço de email</label>
+ 		   		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+	 		</div>
+ 			<div class="form-group">
+    			<label for="exampleInputPassword1">Senha</label>
+    			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+  			</div>
+  			<div class="form-group">
+    			<label for="exampleInputPassword1">CPF</label>
+    			<input type="text" class="form-control" id="exampleInputPassword1" placeholder="000.000.000-00">
+  			</div>
+  			<div class="form-group">
+    			<label for="exampleInputPassword1">Data de Nascimento</label>
+    			<input type="date" class="form-control" id="exampleInputPassword1" placeholder="DD/MM/AAAA">
+  			</div>
+  			<div class="form-group">
+  				<label for="exampleInputPassword1">Gênero</label><br>
+  				<input type="radio" name="gender" value="male"> Masculino<br>
+ 				<input type="radio" name="gender" value="female"> Feminino<br>
+  				<input type="radio" name="gender" value="other"> Outro<br>
+  			</div>
+  			<div class="form-group">
+    			<label for="exampleInputPassword1">Tipo de perfil</label><br>
+    			<input type="radio" name="tipoPerfil" value="estudante">Estudante<br>
+    			<input type="radio" name="tipoPerfil" value="professor">Professor<br>
+  			</div> 
+  			<div class="form-group">
+    			<label for="exampleInputFile">Foto de perfil</label>
+    			<input type="file" id="exampleInputFile">
+  			</div>
+  			<div class="checkbox">
+    			<label>
+   					<input type="checkbox"> Desejo ser informado sobre aulas próximas ao meu local de trabalho.
+    			</label>
+  			</div>
+  			<div class="checkbox">
+    			<label>
+   					<input type="checkbox"> Li e concordo com os termos de uso.
+    			</label>
+  			</div>
+  			<a href="index.html" type="submit" class="btn btn-default">Finalizar</button>
+		</form>
+	</div>
+
+</body>
+</html>
